@@ -1,4 +1,4 @@
-# blah
+# Create an SQS queue
 
 resource "aws_sqs_queue" "test_queue" {
   name = "TestQueue"
